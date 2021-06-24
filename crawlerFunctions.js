@@ -7,7 +7,7 @@ const puppeteer = require('puppeteer');
 
 exports.addSuperChargerToCart = async () => {
     const browser = await puppeteer.launch({
-        executablePath: '/Applications/Chromium.app/Contents/MacOS/Chromium',
+        executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
         headless: false,
         devtools : true,
         args: ['--ignore-certificate-errors']

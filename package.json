@@ -6,6 +6,7 @@
   "author": "Kam <kaqil91@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "puppeteer": "^10.0.0",
     "puppeteer-core": "^8.0.0"
   }
 }
